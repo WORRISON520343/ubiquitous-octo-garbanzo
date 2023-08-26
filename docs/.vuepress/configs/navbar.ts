@@ -32,6 +32,7 @@ export const navbarZh: NavbarConfig = [
         text: '部署运维',
         children: [
           '/zh/deployment/docker.md',
+		  '/zh/deployment/linux.md',
         ],
       },
     ],
@@ -40,9 +41,9 @@ export const navbarZh: NavbarConfig = [
     text: '开发工具',
     children: [
       {
-        text: '常用功能',
+        text: '常用工具',
         children: [
-          '/zh/devtools/back-to-top.md',
+          '/zh/devtools/README.md',
         ],
       }     
     ],
