@@ -16,10 +16,10 @@ export default hopeTheme({
 
 	// sidebar
 	sidebar,
-	
+
 	// 主题布局选项	
 	logo: "/logo.svg",
-	navTitle:"智能光学感知研究项目组",
+	navTitle: "智能光学感知研究项目组",
 	repo: "choushunn/intelligent-perception-doc",
 
 	docsDir: "src",
@@ -29,8 +29,9 @@ export default hopeTheme({
 	displayFooter: true,
 
 	encrypt: {
+		// 加密文档
 		config: {
-			"/demo/encrypt.html": ["1234"],
+			"/about": ["123456"],
 		},
 	},
 
@@ -41,8 +42,32 @@ export default hopeTheme({
 	// 主题外观选项	
 	iconAssets: "fontawesome-with-brands",
 	fullscreen: true,
-	
+
 	plugins: {
+		autoCatalog:true,
+		components: {
+			components: [
+				"ArtPlayer",
+				"AudioPlayer",
+				"Badge",
+				"BiliBili",
+				"CodePen",
+				"PDF",
+				"Replit",
+				"Share",
+				"SiteInfo",
+				"StackBlitz",
+				// "VidStack",
+				"VideoPlayer",
+				"YouTube",
+			],
+			componentOptions: {
+				pdf: {
+					pdfjs: "/assets/lib/pdfjs/",
+				},
+			},
+		},
+		git: true,
 		// You should generate and use your own comment service
 		// comment: {
 		//   provider: "Giscus",
@@ -69,7 +94,7 @@ export default hopeTheme({
 			katex: true,
 			mark: true,
 			mermaid: true,
-			footnote:true,
+			footnote: true,
 			playground: {
 				presets: ["ts", "vue"],
 			},

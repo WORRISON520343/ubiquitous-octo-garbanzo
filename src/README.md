@@ -1,14 +1,12 @@
 ---
 home: true
 icon: home
-title: 项目组
+title: 首页
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 技术指南
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 技术指北
+tagline: 我于杀戮之中盛放,亦如黎明中的花朵。
 actions:
   - text: 使用指南 💡
     link: ./demo/
@@ -17,17 +15,64 @@ actions:
   - text: 文档
     link: ./guide/
 
-highlights:
-  - header: 易于安装
-    image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+  - text: 必修课
+    link: ./technology/
 
 
 
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2023-Spring
 ---
+
+<div class="image-preview">
+	<img src="/images/hero.png" />
+	<img src="/images/hero.png" />
+	<img src="/images/hero.png" />
+</div>
+
+## 安装
+```bash
+# clone 项目
+git clone https://github.com/choushunn/intelligent-perception-doc
+# 进入项目目录
+cd intelligent-perception-doc
+# 安装项目依赖
+npm install
+```
+
+## 使用
+
+```
+# 运行项目
+npm run docs:dev
+```
+
+
+
+<style>
+  .image-preview {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .image-preview > img {
+     box-sizing: border-box;
+     width: 33.3% !important;
+     padding: 9px;
+     border-radius: 16px;
+  }
+
+  @media (max-width: 719px){
+    .image-preview > img {
+      width: 50% !important;
+    }
+  }
+
+  @media (max-width: 419px){
+    .image-preview > img {
+      width: 100% !important;
+    }
+  }
+</style>
