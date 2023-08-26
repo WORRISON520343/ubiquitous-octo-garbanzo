@@ -13,7 +13,8 @@ export default defineUserConfig({
 	head,
 	theme: defaultTheme({
 		logo: 'https://vuejs.org/images/logo.png',
-		repo: 'vuepress/vuepress-next',
+		repo: 'choushunn/intelligent-perception-doc',
+		docsDir:'docs',
 		locales: {
 			'/': {
 				navbar: navbarZh,
