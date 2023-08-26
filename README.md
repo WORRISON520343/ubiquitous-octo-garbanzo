@@ -1,6 +1,7 @@
 # intelligent-perception-doc
 
 
+https://github.com/choushunn/intelligent-perception-doc/workflows/deploy-docs.yml/badge.svg?branch=main
 
 ## Documentation
 
