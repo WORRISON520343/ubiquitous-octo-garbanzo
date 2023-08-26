@@ -13,6 +13,7 @@ export const navbarZh: NavbarConfig = [
         text: '软件开发',
         children: [
           '/zh/development/uml.md',
+		  '/zh/development/designpatterns.md',
         ],
       },
       {
@@ -52,7 +53,6 @@ export const navbarZh: NavbarConfig = [
       {
         text: '深入',
         children: [
-          '/zh/advanced/architecture.md',
 		  '/zh/about.md',
         ],
       },

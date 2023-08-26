@@ -1,8 +1,7 @@
 ---
 lang: zh-CN
-title: UML
+title: 设计模式
 description: 页面的描述
 ---
 
-# UML
-
+# 设计模式
