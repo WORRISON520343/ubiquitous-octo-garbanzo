@@ -1,26 +1,19 @@
 {
-	"name": "vuepress-starter",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"docs:dev": "vuepress dev docs",
-		"docs:build": "vuepress build docs"
-	},
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@vuepress/plugin-active-header-links": "^2.0.0-beta.66",
-		"@vuepress/plugin-back-to-top": "^2.0.0-beta.66",
-		"@vuepress/plugin-docsearch": "^2.0.0-alpha.1",
-		"@vuepress/plugin-git": "^2.0.0-beta.66",
-		"@vuepress/plugin-medium-zoom": "^2.0.0-beta.66",
-		"@vuepress/plugin-nprogress": "^2.0.0-beta.66",
-		"prettier": "^3.0.2",
-		"unplugin-icons": "^0.16.5",
-		"unplugin-vue-components": "^0.25.1",
-		"vite-plugin-windicss": "^1.9.1",
-		"vuepress": "^2.0.0-beta.66",
-		"windicss": "^3.5.6"
-	}
+  "name": "intelligent-perception-doc",
+  "version": "2.0.0",
+  "description": "intelligent-perception-doc",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "docs:dev": "vuepress dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.66",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.66",
+    "vuepress-theme-hope": "2.0.0-beta.235"
+  }
 }

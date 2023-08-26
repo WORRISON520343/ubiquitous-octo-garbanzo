@@ -3,6 +3,10 @@ docs/.vuepress/.temp/
 docs/.vuepress/.cache/
 docs/.vuepress/dist/
 
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
+
 # Dist files
 dist/
 lib/
