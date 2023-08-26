@@ -26,7 +26,7 @@ export const sidebarZh : SidebarConfig = {
 			text: '开发工具',
 			children: [
 				'/zh/devtools/README.md',
-				'/zh/devtools/plugin.md',
+
 			],
 		}
 	],
@@ -36,13 +36,13 @@ export const sidebarZh : SidebarConfig = {
 			children: [
 				'/zh/embedded/README.md',
 				'/zh/embedded/rk3588.md',
-				
+
 			],
 		}
 	],
 	'/zh/deployment/': [
 		{
-			text: '部署运维',
+			text: '服务部署',
 			children: [
 				'/zh/deployment/README.md',
 				'/zh/deployment/docker.md',
@@ -56,6 +56,8 @@ export const sidebarZh : SidebarConfig = {
 			collapsible: false,
 			children: [
 				'/zh/development/README.md',
+				'/zh/development/cpp.md',
+				'/zh/development/python.md',
 				'/zh/development/uml.md',
 				'/zh/development/designpatterns.md',
 			],

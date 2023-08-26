@@ -14,7 +14,7 @@ export default defineUserConfig({
 	theme: defaultTheme({
 		logo: 'https://vuejs.org/images/logo.png',
 		repo: 'choushunn/intelligent-perception-doc',
-		docsDir:'docs',
+		docsDir: 'docs',
 		locales: {
 			'/': {
 				navbar: navbarZh,
