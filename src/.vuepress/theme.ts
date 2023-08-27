@@ -19,13 +19,13 @@ export default hopeTheme({
 
 	// 主题布局选项	
 	logo: "/logo.svg",
-	navTitle: "智能光学感知研究项目组",
+	// navTitle: "智能光学感知研究项目组",
 	repo: "choushunn/intelligent-perception-doc",
 
 	docsDir: "src",
 
-	footer: "智能光学感知研究",
-	copyright: "MIT Licensed | Copyright © 2023-Spring",
+	// footer: "智能光学感知研究",
+	copyright: "MIT Licensed | <a href='https://beian.miit.gov.cn/'; target=_blank>蜀ICP备17031678号-1</a> | Copyright © 2023-Spring",
 	displayFooter: true,
 
 	encrypt: {
