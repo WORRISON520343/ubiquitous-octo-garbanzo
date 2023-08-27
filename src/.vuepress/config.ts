@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
-import theme from "./theme.js";
-
+import theme from "./theme/theme.js";
+import { gitPlugin } from "@vuepress/plugin-git";
 export default defineUserConfig({
 	base: "/",
 	lang: "zh-CN",
@@ -10,4 +10,10 @@ export default defineUserConfig({
 	// 智能光学感知研究项目组
 	// Enable it with pwa
 	// shouldPrefetch: false,
+	plugins: [
+		gitPlugin({
+			// 配置项
+			createdTime: false
+		}),
+	],
 });
