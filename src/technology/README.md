@@ -7,3 +7,4 @@ title: 必修课
 
 <AutoCatalog base='/technology' />
 
+sda
