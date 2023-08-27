@@ -36,7 +36,7 @@ export default sidebar({
 		},
 	],
 	'/devtools/': [	{
-			text: "开发工具",
+			text: "常用资源",
 			link: "/devtools/",
 			children: "structure",
 		},

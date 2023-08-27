@@ -31,13 +31,21 @@ export default navbar([
 		],
 	},
 	{
-		text: '开发工具',
+		text: '常用资源',
 		link: '/devtools/',
 	},
 	{
 		text: '了解更多',
+		prefix:'/more/',
 		children: [
-			'/about.md',
+			{
+				text: '关于我们',
+				link: 'about/',
+			},			
+			{
+				text: '现有项目',
+				link: 'project/',
+			},
 		],
 	}
 ]);
