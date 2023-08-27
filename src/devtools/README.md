@@ -12,6 +12,7 @@ title: 开发工具
 ### C++ 
 - [项目构建生成工具 cmake](https://cmake.org/download/)
 - [设计模式详解](https://subingwen.cn/design-patterns/)
+- [Hello 算法](https://www.hello-algo.com/)
 ## Windows
 - [终端软件 tabby](https://tabby.sh/)
 - [文件传输软件 WinSCP](https://winscp.net/eng/download.php)
@@ -32,3 +33,9 @@ title: 开发工具
 ## 竞赛
 - 中国研究生系列大赛-[中国研究生系列大赛](https://cpipc.acge.org.cn/)
 - 数学建模竞赛-[赛氪网](https://www.saikr.com/vs/mcm)
+
+## 镜像站
+- [南京大学](https://mirror.nju.edu.cn/)
+- [README生成](https://readme.so/editor)
+## 学术网站
+- [arxiv](https://arxiv.org/)
