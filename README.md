@@ -5,7 +5,7 @@ https://github.com/choushunn/intelligent-perception-doc/workflows/deploy-docs.ym
 
 ## Documentation
 
-https://xxx.xxx.cn
+http://doc.yfengl.cn
 
 ## Contribution
 
