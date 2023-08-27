@@ -1,7 +1,5 @@
 ---
-lang: zh-CN
 title: 人工智能
-description: 页面的描述
 ---
 
 ## 介绍

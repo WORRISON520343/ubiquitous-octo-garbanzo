@@ -8,7 +8,7 @@ export default sidebar({
 		},
 	],
 	'/technology/': [{
-			text: "必修技术",
+			text: "核心知识",
 			children: [
 				"",
 				{
