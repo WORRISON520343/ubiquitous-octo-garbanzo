@@ -1,7 +1,6 @@
 # intelligent-perception-doc
+[![Build Status](https://www.travis-ci.org/choushunn/intelligent-perception-doc.svg?branch=develop)](https://www.travis-ci.org/{choushunn}/{intelligent-perception-doc})
 
-
-https://github.com/choushunn/intelligent-perception-doc/workflows/deploy-docs.yml/badge.svg?branch=main
 
 ## Documentation
 

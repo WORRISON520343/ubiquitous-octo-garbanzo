@@ -27,5 +27,14 @@ title: 常用软件
 ## LaTeX
 - [LaTeX](https://www.latex-project.org/)
 - [TeXStudio](https://www.texstudio.org/)
+- [TeX Live](https://tug.org/texlive/)
+- [Overleaf](https://www.overleaf.com/)
 ## 其他
 - [大型软件下载](http://www.zhanshaoyi.com/rjxz.html)
+- [小恐龙公文排版助手](https://gw.xkonglong.com/#/)
+## 无人机
+- [ImpulseRC](https://impulserc.com/pages/downloads)
+- [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator)
+- [INAV Configurator](https://github.com/iNavFlight/inav-configurator)
+- [BLHeli Configurator](https://github.com/blheli-configurator/blheli-configurator)
+- [](https://github.com/mathiasvr/bluejay)

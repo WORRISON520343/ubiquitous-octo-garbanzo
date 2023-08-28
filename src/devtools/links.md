@@ -15,8 +15,10 @@ title: 常用链接
 - [北京外国语大学镜像站](https://mirrors.bfsu.edu.cn/)
 
 ## 学术网站
+- [Google 学术搜索](https://scholar.google.com/)
 - [arxiv](https://arxiv.org/)
 - [Papers with Code](https://paperswithcode.com/)
+- [sci-hub](https://sci-hub.se/)
 
 ## 官方
 - [软件著作权登记](https://register.ccopyright.com.cn/)
