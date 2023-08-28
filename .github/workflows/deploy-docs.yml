@@ -55,7 +55,7 @@ jobs:
           username: root
           password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
           source: src/.vuepress/dist
-            target: /usr/share/nginx/html
+          target: /usr/share/nginx/html
 
       - name: 重启 Docker Compose
           run: |
