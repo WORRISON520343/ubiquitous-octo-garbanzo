@@ -1,5 +1,5 @@
 ---
-title: 贡献指南
+title: 参与贡献
 order: 2
 ---
 

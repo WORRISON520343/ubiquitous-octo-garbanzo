@@ -2,8 +2,8 @@
 title: 介绍
 ---
 
-::: warning
-该项目目前仍处于 `beta` 阶段，请注意阅读[快速上手](./getting-started.md)和[贡献指南](./contributing.md)。
+::: tip
+本部分收集了一些常用的工具软件、常用的网站以及在线书籍，供大家参考。
 :::
 
 <AutoCatalog base='/devtools' />

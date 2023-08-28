@@ -8,14 +8,14 @@ bgImageStyle:
 heroText: 技术指北
 tagline: 我于杀戮之中盛放,亦如黎明中的花朵。
 actions:
-  - text: 使用指南 💡
+  - text: 使用指北 💡
     link: ./guide/
     type: primary
 
-  - text: 必修课
+  - text: 必修课 🧭
     link: ./technology/
 	
-  - text: 开发工具
+  - text: 开发工具 🪀
     link: ./devtools/
 
 copyright: false

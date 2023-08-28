@@ -4,7 +4,7 @@ title: 软件开发
 ::: warning
 本页面主要用于介绍软件开发相关内容。
 :::
-
+<AutoCatalog base='/technology/development' />
 ## 分类
 ### 应用平台分类
 - 桌面应用程序开发：使用Java、C++、Qt、Electron等来开发运行在个人电脑上的应用程序。
