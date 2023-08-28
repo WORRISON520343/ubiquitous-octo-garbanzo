@@ -65,6 +65,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
           script: |
-            cd /root/doc
+            cd /root/doc/
             docker compose down
             docker compose up -d
