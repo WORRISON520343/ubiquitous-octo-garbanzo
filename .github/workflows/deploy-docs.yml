@@ -49,6 +49,15 @@ jobs:
           branch: gh-pages
           folder: src/.vuepress/dist
 
+      - name: 删除服务器上的旧内容
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            rm -rf /root/doc/dist/*
+
       - name: 部署到服务器
         uses: appleboy/scp-action@master
         with:
