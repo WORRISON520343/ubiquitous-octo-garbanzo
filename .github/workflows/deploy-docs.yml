@@ -58,5 +58,5 @@ jobs:
           target: /usr/share/nginx/html
 
       - name: 重启 Docker Compose
-          run: |
-            ssh root@8.130.75.226 "cd /root/doc; docker-compose down; docker-compose up -d"
+        run: |
+          ssh root@8.130.75.226 "cd /root/doc; docker-compose down; docker-compose up -d"
