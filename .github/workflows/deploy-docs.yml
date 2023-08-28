@@ -5,7 +5,8 @@ on:
     branches:
       # 确保这是你正在使用的分支名称
       - develop
-
+    tags:
+      - 'v*'
 permissions:
   contents: write
 
@@ -59,10 +60,11 @@ jobs:
 
       - name: 重启 Docker Compose
         uses: appleboy/ssh-action@master # 使用ssh链接服务器
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
-        script: |
-          cd /root/doc
-          docker-compose down
-          docker-compose up -d
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
+          script: |
+            cd /root/doc
+            docker-compose down
+            docker-compose up -d
