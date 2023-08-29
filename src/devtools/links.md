@@ -39,4 +39,4 @@ title: 常用链接
 
 
 
-[GitHub Docs](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+[GitHub Docs](https://docs.github.com/zh)
