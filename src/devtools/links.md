@@ -36,3 +36,7 @@ title: 常用链接
 [Python](https://www.python.org/)
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 [Vue](https://vuejs.org/)
+
+
+
+[](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)

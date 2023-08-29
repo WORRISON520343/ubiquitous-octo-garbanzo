@@ -22,19 +22,25 @@ title: 常用软件
 - [Qt](https://mirrors.bfsu.edu.cn/help/qt/)
 - [JetBrains Tool Box](https://www.jetbrains.com/toolbox-app/)
 - [git](https://git-scm.com/)
+- [draw.io](https://www.drawio.com/)-画图工具
 ## C++ 
 - [编译工具 CMake](https://cmake.org/download/)
+- [构建工具 Ninja](https://ninja-build.org/)
+- [Dev-C++](https://devcpp.gitee.io/)
+- [Mingw-w64](https://www.mingw-w64.org/downloads/)
 ## LaTeX
 - [LaTeX](https://www.latex-project.org/)
 - [TeXStudio](https://www.texstudio.org/)
 - [TeX Live](https://tug.org/texlive/)
 - [Overleaf](https://www.overleaf.com/)
-## 其他
-- [大型软件下载](http://www.zhanshaoyi.com/rjxz.html)
-- [小恐龙公文排版助手](https://gw.xkonglong.com/#/)
+
 ## 无人机
 - [ImpulseRC](https://impulserc.com/pages/downloads)
 - [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator)
 - [INAV Configurator](https://github.com/iNavFlight/inav-configurator)
 - [BLHeli Configurator](https://github.com/blheli-configurator/blheli-configurator)
-- [](https://github.com/mathiasvr/bluejay)
+- [Bluejay](https://github.com/mathiasvr/bluejay)
+- [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS)
+## 其他
+- [大型软件下载](http://www.zhanshaoyi.com/rjxz.html)
+- [小恐龙公文排版助手](https://gw.xkonglong.com/#/)
