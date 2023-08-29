@@ -64,5 +64,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
-          source: /src/.vuepress/dist
+          source: .
           target: /root/doc/dist
