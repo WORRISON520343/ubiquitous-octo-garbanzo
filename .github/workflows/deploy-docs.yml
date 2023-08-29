@@ -56,7 +56,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            rm -rf /root/doc/dist/*
+            rm -rf /root/doc/dist/**
 
       - name: 部署到服务器
         uses: appleboy/scp-action@master
