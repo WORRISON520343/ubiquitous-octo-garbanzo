@@ -49,20 +49,20 @@ jobs:
           branch: gh-pages
           folder: src/.vuepress/dist
 
-      - name: 删除服务器上的旧内容
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          script: |
-            rm -rf /root/doc/dist/**
+      # - name: 删除服务器上的旧内容
+      #   uses: appleboy/ssh-action@master
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USERNAME }}
+      #     password: ${{ secrets.SERVER_PASSWORD }}
+      #     script: |
+      #       rm -rf /root/doc/dist/**
 
-      - name: 部署到服务器
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
-          source: src/.vuepress/dist/*  # 选择 dist 目录下的所有文件和文件夹
-          target: /root/doc/dist
+      # - name: 部署到服务器
+      #   uses: appleboy/scp-action@master
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USERNAME }}
+      #     password: ${{ secrets.SERVER_PASSWORD }}  # 在仓库的 Secrets 设置中添加服务器的密码
+      #     source: src/.vuepress/dist/*  # 选择 dist 目录下的所有文件和文件夹
+      #     target: /root/doc/dist

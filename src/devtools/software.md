@@ -44,3 +44,8 @@ title: 常用软件
 ## 其他
 - [大型软件下载](http://www.zhanshaoyi.com/rjxz.html)
 - [小恐龙公文排版助手](https://gw.xkonglong.com/#/)
+- [DevToys](https://github.com/veler/DevToys)
+
+## GitHub
+- [best-of-lists](https://github.com/best-of-lists/best-of)
+- [Awesome lists](https://github.com/sindresorhus/awesome)
